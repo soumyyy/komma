@@ -1,0 +1,43 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: #010101;
+    background-size: cover;
+    background-position: center;
+    font-family:comfortaa;
+}
+
+h2 {
+    font-size: 50px;
+    color: #f4a202;
+    background: #053541;
+    padding-left: 20px;
+}
+
+.logo{
+    border-radius: 50%;
+    width:26px;
+    height:26px;
+    
+}
+
+.logged-in{
+    width: 320px;
+    height: 50px;
+    color: #f2f2f2;
+    left: 50%;
+    top: 55%;
+    padding-left: 20px
+    text-align: center;
+    position:absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    background: #053541;
+    padding-left: 20px;
+    border-radius: 10px;
+    font-family: comfortaa;;
+}
+
+.logged-in p{
+    color:#f4a202;
+}

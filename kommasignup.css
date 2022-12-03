@@ -1,0 +1,111 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: #010101;
+    background-size: cover;
+    background-position: center;
+    font-family:comfortaa;
+}
+
+.signupbox{
+    width: 320px;
+    height: 420px;
+    color: #f2f2f2;
+    left: 50%;
+    top: 55%;
+    position:absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    background: #053541;
+    padding-left: 20px;
+    padding-top: 0;
+    border-radius: 5%;
+    font-family: comfortaa;;
+}
+
+.signupbox p{
+    
+    margin: 0 ;
+    padding: 0;
+    font-weight: bold;
+    margin: 2px;
+}
+
+
+.logo{
+    border-radius: 50%;
+    width:26px;
+    height:26px;
+    
+}
+
+h2 {
+    font-size: 50px;
+    color: #f4a202;
+    background: #053541;
+    padding-left: 20px;
+}
+
+h1{
+    margin-bottom: 20px;
+    margin-top: 20px;
+    height:10px;
+    padding: 0 20px 20px 0;
+    text-align: center;
+    font-size: 15px;
+}
+
+.signupbox input[type="text"], input[type="password"]
+{
+    border: none;
+    border-bottom: none;
+    margin-top: -10px;
+    margin-bottom: 5px;
+    background: transparent;
+    outline:none;
+    height: 40px;
+    color: #121212;
+    font-size: 14px;
+}
+
+.signupbox input[type="submit"], input[class="btn"]
+{
+  text-align:center;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  background:#f2f2f2;
+  border-radius: 10px;
+  object-position: center;
+  width: 200px;
+  margin-left: 30px;
+  align-items:center;
+  height: 30px;
+  border: none;
+  position: relative;
+  color: #121212;
+  font-size: 20px; 
+  margin-bottom: 10px; 
+}
+
+.signupbox input[type="submit"], input[class="btn"]:hover
+{
+    cursor: pointer;
+    background: #053541;
+    color: #f2f2f2;
+    text-align: center; 
+}
+
+.signupbox a{
+    text-decoration: none;
+    font-size: 12px;
+    line-height: 20px;
+    color: #ffffff;
+    text-align:right;
+}
+
+.signupbox a:hover
+{
+    cursor:pointer;
+    background: #053541;
+    color: #000000
+}
